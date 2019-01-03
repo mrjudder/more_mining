@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--This xml is a ingame object blueprint for the Android game little hoarders--><!--Editing this document should only be done via the editor, unless you know what you are doing!--><TheGatherers codename="More Mining" defaultLocale="en" minApk="0.1" version="1.0" xmlstatus="complete">
+<!--This xml is a ingame object blueprint for the Android game little hoarders--><!--Editing this document should only be done via the editor, unless you know what you are doing!--><TheGatherers codename="More Mining" defaultLocale="en" minApk="0.1" version="1.1" xmlstatus="complete">
 <levels>
 <level bronze="2160" buildings="1,2,3,4,11,12,13,19,20,21,22,23" gold="1680" id="1" images="1,2,3,4,5,6,12,13,14,15,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34" json="Data/level1" map="Images/Maps/mountainmap" silver="1920" title="test" workers="1,2,3,4,5,6,7,8,9,10,11,12,13,22,23,24,25,26,27,28,29,31,34,35,36,41,42,43,44,45,46,47,48,49,50">
 <target amount="15" item="52"/>
 <target amount="15" item="53"/>
 <target amount="15" item="54"/>
 <target amount="15" item="12"/>
-<info locale="en" text="test level" type="title"/>
+<info locale="de" text="Die nördlichen Berge" type="title"/>
+<info locale="en" text="The Northern Mountains" type="title"/>
 </level>
 <level bronze="2160" buildings="1,2,3,4,11,12,13,19,20,21,22,23" gold="1680" id="2" images="1,2,3,4,5,6,12,13,14,15,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34" json="Data/level2" map="Images/Maps/mountainmap" silver="1920" title="level 2" workers="1,2,3,4,5,6,7,8,9,10,11,12,13,22,23,24,25,26,27,28,29,31,34,35,36,41,42,43,44,45,46,47,48,49,50">
 <target amount="15" item="52"/>
 <target amount="15" item="53"/>
 <target amount="15" item="54"/>
 <target amount="15" item="12"/>
-<info locale="en" text="level 2" type="title"/>
+<info locale="de" text="Vier Ecken" type="title"/>
+<info locale="en" text="Four Corners" type="title"/>
 </level>
 <level bronze="2640" buildings="1,2,3,4,11,12,13,19,20,21,22,23" gold="2160" id="3" images="1,2,3,4,5,6,12,13,14,15,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34" json="Data/level3" map="Images/Maps/mountainmap" silver="2400" title="level 3" workers="1,2,3,4,5,6,7,8,9,10,11,12,13,22,23,24,25,26,27,28,29,31,34,35,36,41,42,43,44,45,46,47,48,49,50">
 <target amount="15" item="52"/>
 <target amount="15" item="53"/>
 <target amount="15" item="54"/>
 <target amount="15" item="12"/>
-<info locale="en" text="level 3" type="title"/>
+<info locale="de" text="Gemischt" type="title"/>
+<info locale="en" text="Mixed Up" type="title"/>
 </level>
 <level bronze="4500" buildings="1,2,3,4,11,12,13,19,20,21,22,23" gold="3300" id="4" images="32,1,33,2,34,3,4,5,6,12,13,14,15,20,22,23,25,26,27,28,29,30,31" json="Data/level4" map="Images/Maps/mountainmap" silver="3900" title="level 4" workers="1,2,3,4,5,6,7,8,9,10,11,12,13,22,23,24,25,26,27,28,29,31,34,35,36,41,42,43,44,45,46,47,48,49,50">
 <target amount="15" item="52"/>
 <target amount="15" item="53"/>
 <target amount="15" item="54"/>
 <target amount="15" item="12"/>
-<info locale="en" text="level 4" type="title"/>
+<info locale="de" text="Großer Berg" type="title"/>
+<info locale="en" text="Big Mountain" type="title"/>
 </level>
 </levels>
 <items path="Images/workers/">
