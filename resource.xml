@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--This xml is a ingame object blueprint for the Android game little hoarders--><!--Editing this document should only be done via the editor, unless you know what you are doing!--><TheGatherers codename="More Mining" defaultLocale="en" minApk="0.1" version="1.0" xmlstatus="complete">
+<levels>
+<level bronze="2160" buildings="1,2,3,4,11,12,13,19,20,21,22,23" gold="1680" id="1" images="1,2,3,4,5,6,12,13,14,15,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34" json="Data/level1" map="Images/Maps/mountainmap" silver="1920" title="test" workers="1,2,3,4,5,6,7,8,9,10,11,12,13,22,23,24,25,26,27,28,29,31,34,35,36,41,42,43,44,45,46,47,48,49,50">
+<target amount="15" item="52"/>
+<target amount="15" item="53"/>
+<target amount="15" item="54"/>
+<target amount="15" item="12"/>
+<info locale="en" text="test level" type="title"/>
+</level>
+<level bronze="2160" buildings="1,2,3,4,11,12,13,19,20,21,22,23" gold="1680" id="2" images="1,2,3,4,5,6,12,13,14,15,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34" json="Data/level2" map="Images/Maps/mountainmap" silver="1920" title="level 2" workers="1,2,3,4,5,6,7,8,9,10,11,12,13,22,23,24,25,26,27,28,29,31,34,35,36,41,42,43,44,45,46,47,48,49,50">
+<target amount="15" item="52"/>
+<target amount="15" item="53"/>
+<target amount="15" item="54"/>
+<target amount="15" item="12"/>
+<info locale="en" text="level 2" type="title"/>
+</level>
+<level bronze="2640" buildings="1,2,3,4,11,12,13,19,20,21,22,23" gold="2160" id="3" images="1,2,3,4,5,6,12,13,14,15,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34" json="Data/level3" map="Images/Maps/mountainmap" silver="2400" title="level 3" workers="1,2,3,4,5,6,7,8,9,10,11,12,13,22,23,24,25,26,27,28,29,31,34,35,36,41,42,43,44,45,46,47,48,49,50">
+<target amount="15" item="52"/>
+<target amount="15" item="53"/>
+<target amount="15" item="54"/>
+<target amount="15" item="12"/>
+<info locale="en" text="level 3" type="title"/>
+</level>
+<level bronze="4500" buildings="1,2,3,4,11,12,13,19,20,21,22,23" gold="3300" id="4" images="32,1,33,2,34,3,4,5,6,12,13,14,15,20,22,23,25,26,27,28,29,30,31" json="Data/level4" map="Images/Maps/mountainmap" silver="3900" title="level 4" workers="1,2,3,4,5,6,7,8,9,10,11,12,13,22,23,24,25,26,27,28,29,31,34,35,36,41,42,43,44,45,46,47,48,49,50">
+<target amount="15" item="52"/>
+<target amount="15" item="53"/>
+<target amount="15" item="54"/>
+<target amount="15" item="12"/>
+<info locale="en" text="level 4" type="title"/>
+</level>
+</levels>
+<items path="Images/workers/">
+<item id="1" name="wood">
+<info locale="de" text="Holz" type="title"/>
+<info locale="en" text="wood" type="title"/>
+<info locale="de" text="von Bäumen gesammelt" type="description"/>
+<info locale="en" text="comes from trees" type="description"/>
+</item>
+<item id="2" name="plank">
+<info locale="de" text="Planke" type="title"/>
+<info locale="en" text="Plank" type="title"/>
+<info locale="de" text="Sägewerk produziert es aus Holz" type="description"/>
+<info locale="en" text="Sawmill produces it from wood" type="description"/>
+</item>
+<item id="3" name="forester">
+<workerImage resource="1" span="1|2"/>
+<info locale="de" text="Förster" type="title"/>
+<info locale="en" text="Forester" type="title"/>
+<info locale="de" text="Pflanzen Bäume" type="description"/>
+<info locale="en" text="Plants Trees" type="description"/>
+</item>
+<item id="4" name="forester w tree">
+<workerImage resource="2" span="1|2"/>
+</item>
+<item id="5" name="leveller">
+<workerImage resource="3" span="1|2"/>
+<info locale="de" text="Leveler" type="title"/>
+<info locale="en" text="Leveller" type="title"/>
+<info locale="de" text="flacht das Gelände während des Baus eines Gebäudes ab" type="description"/>
+<info locale="en" text="levels the ground during the construction of a building" type="description"/>
+</item>
+<item id="6" name="builder">
+<workerImage resource="4" span="1|2"/>
+<info locale="de" text="Erbauer" type="title"/>
+<info locale="en" text="Builder" type="title"/>
+<info locale="de" text="erforderlich beim Bau eines Gebäudes" type="description"/>
+<info locale="en" text="required when constructing a building" type="description"/>
+</item>
+<item id="7" name="woodcutter">
+<workerImage resource="5" span="1|2"/>
+<info locale="de" text="Holzfäller" type="title"/>
+<info locale="en" text="Woodcutter" type="title"/>
+<info locale="de" text="arbeitet in einer Holzfällerhütte" type="description"/>
+<info locale="en" text="works in a woodcutters hut" type="description"/>
+</item>
+<item id="8" name="woodcutter w wood">
+<workerImage resource="6" span="1|2"/>
+</item>
+<item id="9" name="sawmill worker">
+<workerImage resource="7" span="1|2"/>
+<info locale="de" text="Sägewerk Arbeiter" type="title"/>
+<info locale="en" text="Sawmill Worker" type="title"/>
+<info locale="de" text="arbeitet in einem Sägewerk" type="description"/>
+<info locale="en" text="works in a Sawmill" type="description"/>
+</item>
+<item id="10" name="sawmill w wood">
+<workerImage resource="8" span="1|2"/>
+</item>
+<item id="11" name="sawmill w plank">
+<workerImage resource="9" span="1|2"/>
+</item>
+<item id="12" name="stone">
+<info locale="de" text="Stein" type="title"/>
+<info locale="en" text="Stone" type="title"/>
+<info locale="de" text="gesammelt aus Steinminen" type="description"/>
+<info locale="en" text="collected from stone mines" type="description"/>
+</item>
+<item id="13" name="warehouse worker">
+<workerImage resource="10" span="1|2"/>
+<info locale="de" text="arbeitsloser Träger" type="title"/>
+<info locale="en" text="Unemployed Carrier" type="title"/>
+<info locale="de" text="produziert in einem Lagerhaus, benötigt für neue Lagerhallen" type="description"/>
+<info locale="en" text="produced in a warehouse, needed for new warehouses" type="description"/>
+</item>
+<item id="14" name="with wood">
+<workerImage resource="11" span="1|2"/>
+</item>
+<item id="15" name="with plank">
+<workerImage resource="12" span="1|2"/>
+</item>
+<item id="16" name="with stone">
+<workerImage resource="13" span="1|2"/>
+</item>
+<item id="18" name="foreseter w apple tree">
+<workerImage resource="14" span="1|2"/>
+</item>
+<item id="28" name="corn">
+<info locale="de" text="Mais" type="title"/>
+<info locale="en" text="Corn" type="title"/>
+<info locale="de" text="Gesammelt aus Weizen" type="description"/>
+<info locale="en" text="Collected from Wheat" type="description"/>
+</item>
+<item id="29" name="flour">
+<info locale="de" text="Mehl" type="title"/>
+<info locale="en" text="Flour" type="title"/>
+<info locale="de" text="Hergestellt aus Mais in einer Getreidemühle" type="description"/>
+<info locale="en" text="Produced from Corn in a Flour Mill" type="description"/>
+</item>
+<item id="30" name="bread">
+<info locale="de" text="Brot" type="title"/>
+<info locale="en" text="Bread" type="title"/>
+<info locale="de" text="Produziert in einer Bäckerei, von Bergleuten gegessen" type="description"/>
+<info locale="en" text="Produced in a Bakery, eaten by miners" type="description"/>
+</item>
+<item id="31" name="farmer">
+<workerImage resource="22" span="1|2"/>
+<info locale="de" text="Landwirt" type="title"/>
+<info locale="en" text="Farmer" type="title"/>
+<info locale="de" text="arbeitet in einer Weizenfarm" type="description"/>
+<info locale="en" text="works in a Wheat Farm" type="description"/>
+</item>
+<item id="32" name="farmer w water">
+<workerImage resource="23" span="1|2"/>
+</item>
+<item id="33" name="farmer w corn">
+<workerImage resource="24" span="1|2"/>
+</item>
+<item id="34" name="miller">
+<workerImage resource="25" span="1|2"/>
+<info locale="de" text="Müller" type="title"/>
+<info locale="en" text="Miller" type="title"/>
+<info locale="de" text="arbeitet in einer Getreidemühle" type="description"/>
+<info locale="en" text="works in a Flour Mill" type="description"/>
+</item>
+<item id="35" name="miller w flour">
+<workerImage resource="26" span="1|2"/>
+</item>
+<item id="36" name="miller w corn">
+<workerImage resource="27" span="1|2"/>
+</item>
+<item id="37" name="baker">
+<workerImage resource="28" span="1|2"/>
+<info locale="de" text="Bäcker" type="title"/>
+<info locale="en" text="Baker" type="title"/>
+<info locale="de" text="Arbeitet in einer Bäckerei" type="description"/>
+<info locale="en" text="Works in a Bakery" type="description"/>
+</item>
+<item id="38" name="baker w bread">
+<workerImage resource="29" span="1|2"/>
+</item>
+<item id="40" name="baker w flour">
+<workerImage resource="31" span="1|2"/>
+</item>
+<item id="43" name="with corn">
+<workerImage resource="34" span="1|2"/>
+</item>
+<item id="44" name="with flour">
+<workerImage resource="35" span="1|2"/>
+</item>
+<item id="45" name="with bread">
+<workerImage resource="36" span="1|2"/>
+</item>
+<item id="52" name="iron ore">
+<info locale="de" text="Eisenerz" type="title"/>
+<info locale="en" text="Iron Ore" type="title"/>
+<info locale="de" text="Gesammelt von einer Eisenmine" type="description"/>
+<info locale="en" text="Collected from a iron mine" type="description"/>
+</item>
+<item id="53" name="copper ore">
+<info locale="de" text="Kupfererz" type="title"/>
+<info locale="en" text="Copper Ore" type="title"/>
+<info locale="de" text="Gesammelt von einer Kupfermine" type="description"/>
+<info locale="en" text="Collected from a copper mine" type="description"/>
+</item>
+<item id="54" name="coal">
+<info locale="de" text="Kohle" type="title"/>
+<info locale="en" text="Coal" type="title"/>
+<info locale="de" text="Gesammelt von einer Kohlengrube" type="description"/>
+<info locale="en" text="Collected from a coal mine" type="description"/>
+</item>
+<item id="55" name="geologist">
+<workerImage resource="41" span="1|2"/>
+<info locale="de" text="Geologe" type="title"/>
+<info locale="en" text="Geologist" type="title"/>
+<info locale="de" text="Findet Erz in den Bergen" type="description"/>
+<info locale="en" text="Finds Ore in Mountains" type="description"/>
+</item>
+<item id="57" name="miner">
+<workerImage resource="42" span="1|2"/>
+<info locale="de" text="Bergleute" type="title"/>
+<info locale="en" text="Miner" type="title"/>
+<info locale="de" text="Arbeitet in Bergwerk" type="description"/>
+<info locale="en" text="Works in Mines" type="description"/>
+</item>
+<item id="58" name="miner w stone">
+<workerImage resource="43" span="1|2"/>
+</item>
+<item id="59" name="miner w coal">
+<workerImage resource="44" span="1|2"/>
+</item>
+<item id="60" name="miner w iron ore">
+<workerImage resource="45" span="1|2"/>
+</item>
+<item id="61" name="miner w copper ore">
+<workerImage resource="46" span="1|2"/>
+</item>
+<item id="62" name="miner w bread">
+<workerImage resource="47" span="1|2"/>
+</item>
+<item id="64" name="with coal">
+<workerImage resource="48" span="1|2"/>
+</item>
+<item id="65" name="with iron ore">
+<workerImage resource="49" span="1|2"/>
+</item>
+<item id="66" name="with copper ore">
+<workerImage resource="50" span="1|2"/>
+</item>
+</items>
+<images>
+<image dir="Images/tree/" hotspot="0|0,-1,-1,-1" id="1" idleId="1" mapObject="true" span="3|3" walkover="7,7,5">
+<creation skip="2" total="35"/>
+<destruction skip="20" total="1"/>
+<busy directory="1" id="1" name="planting" skip="2" total="17"/>
+<busy directory="2" id="2" name="cutting down" skip="2" total="12"/>
+<idle id="1" name="main" sequence="1" total="8"/>
+</image>
+<image dir="Images/apple_tree/" hotspot="0|0,-1,-1,-1" id="6" idleId="1" mapObject="true" span="3|3" walkover="7,7,5">
+<creation skip="2" total="35"/>
+<destruction skip="20" total="1"/>
+<busy directory="1" id="1" name="plant tree" skip="2" total="16"/>
+<busy directory="2" id="2" name="cut down tree" skip="2" total="12"/>
+<idle id="1" name="main" sequence="1" total="2"/>
+</image>
+<image dir="Images/wheat/" hotspot="0|0,-1,-1,-1" id="12" idleId="1" mapObject="true" span="3|2" walkover="7,5">
+<creation skip="2" total="16"/>
+<destruction skip="2" total="9"/>
+<busy directory="1" id="1" name="decay" skip="2" total="4"/>
+<busy directory="2" id="2" name="sowing" skip="2" total="15"/>
+<busy directory="3" id="3" name="reaping" skip="2" total="16"/>
+<idle id="1" name="main" sequence="1" total="1"/>
+</image>
+<image dir="Images/mountain/" hotspot="0|0,-1,-1,-1" id="20" idleId="1" mapObject="true" span="4|4" walkover="15,15,15,15">
+<idle id="1" name="main" sequence="1" total="1"/>
+</image>
+<image dir="Images/ne_mountain/" hotspot="0|0,-1,-1,-1" id="21" idleId="1" mapObject="true" span="4|4" walkover="15,15,15,15">
+<idle id="1" name="main" sequence="1" total="1"/>
+</image>
+<image dir="Images/nw_mountain/" hotspot="0|0,-1,-1,-1" id="22" idleId="1" mapObject="true" span="4|4" walkover="15,15,15,15">
+<idle id="1" name="main" sequence="1" total="1"/>
+</image>
+<image dir="Images/se_mountain/" hotspot="0|0,-1,-1,-1" id="23" idleId="1" mapObject="true" span="4|4" walkover="15,15,15,15">
+<idle id="1" name="main" sequence="1" total="1"/>
+</image>
+<image dir="Images/sw_mountain/" hotspot="0|0,-1,-1,-1" id="24" idleId="1" mapObject="true" span="4|4" walkover="15,15,15,15">
+<idle id="1" name="main" sequence="1" total="1"/>
+</image>
+<image dir="Images/hidden_hidden/" hotspot="0|0,-1,-1,-1" id="25" idleId="1" mapObject="true" span="2|2" walkover="3,3">
+<busy directory="1" id="1" name="discovery" skip="2" total="13"/>
+<idle id="1" name="main" sequence="1" total="1"/>
+</image>
+<image dir="Images/stone_resource/" hotspot="0|0,-1,-1,-1" id="26" idleId="1" mapObject="true" span="2|2" walkover="3,3">
+<idle id="1" name="main" sequence="1" total="1"/>
+</image>
+<image dir="Images/iron_resource/" hotspot="0|0,-1,-1,-1" id="27" idleId="1" mapObject="true" span="2|2" walkover="3,3">
+<idle id="1" name="main" sequence="1" total="1"/>
+</image>
+<image dir="Images/copper_resource/" hotspot="0|0,-1,-1,-1" id="28" idleId="1" mapObject="true" span="2|2" walkover="3,3">
+<idle id="1" name="main" sequence="1" total="1"/>
+</image>
+<image dir="Images/coal_resource/" hotspot="0|0,-1,-1,-1" id="29" idleId="1" mapObject="true" span="2|2" walkover="3,3">
+<idle id="1" name="main" sequence="1" total="1"/>
+</image>
+<image dir="Images/forester/" hotspot="2|0,-1,-1,-1" id="2" idleId="1" mapObject="false" span="5|5" walkover="31,7,0,0,4">
+<creation skip="2" total="144"/>
+<destruction skip="2" total="15"/>
+<creationRequirement destructionIdleId="2" endFrame="35" idleId="2">
+<creationItem amount="1" fromWarehouse="true" id="5" idleId="-1"/>
+<destructionItem amount="1" id="5" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="8" endFrame="85" idleId="3">
+<creationItem amount="1" fromWarehouse="false" id="5" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="6" idleId="7"/>
+<creationItem amount="1" fromWarehouse="true" id="2" idleId="6"/>
+<destructionItem amount="1" id="6" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="143" idleId="4">
+<creationItem amount="1" fromWarehouse="true" id="2" idleId="-1"/>
+<destructionItem amount="1" id="2" idleId="8" onlyWhenStocked="true"/>
+<destructionItem amount="1" id="6" idleId="-1" onlyWhenStocked="false"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="-2" idleId="5">
+<creationItem amount="1" fromWarehouse="false" id="6" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="3" idleId="-1"/>
+<destructionItem amount="1" id="3" idleId="-1" onlyWhenStocked="true"/>
+<destructionItem amount="1" id="2" idleId="8" onlyWhenStocked="false"/>
+</creationRequirement>
+<destructionRequirement idleId="9">
+<destructionItem amount="1" id="2" idleId="8"/>
+<destructionItem amount="1" id="3" idleId="-1"/>
+</destructionRequirement>
+<idle id="1" name="main" sequence="1" total="1"/>
+<idle id="2" name="empty plot" sequence="2" total="1"/>
+<idle id="3" name="dug plot" sequence="3" total="1"/>
+<idle id="4" name="frame" sequence="4" total="4"/>
+<idle id="5" name="completed" sequence="5" total="1"/>
+<idle id="6" name="got plank" sequence="6" total="1"/>
+<idle id="7" name="get builder" sequence="7" total="4"/>
+<idle id="8" name="destruction empty" sequence="8" total="1"/>
+<idle id="9" name="destruction plank" sequence="9" total="1"/>
+<idle id="10" name="issue" sequence="10" total="1"/>
+</image>
+<image dir="Images/woodcutter/" hotspot="2|0,-1,-1,-1" id="3" idleId="1" mapObject="false" span="5|5" walkover="31,7,0,0,4">
+<creation skip="2" total="144"/>
+<destruction skip="2" total="15"/>
+<creationRequirement destructionIdleId="2" endFrame="35" idleId="2">
+<creationItem amount="1" fromWarehouse="true" id="5" idleId="-1"/>
+<destructionItem amount="1" id="5" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="8" endFrame="85" idleId="3">
+<creationItem amount="1" fromWarehouse="false" id="5" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="6" idleId="7"/>
+<creationItem amount="1" fromWarehouse="true" id="2" idleId="6"/>
+<destructionItem amount="1" id="6" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="143" idleId="4">
+<creationItem amount="1" fromWarehouse="true" id="2" idleId="-1"/>
+<destructionItem amount="1" id="2" idleId="8" onlyWhenStocked="true"/>
+<destructionItem amount="1" id="6" idleId="-1" onlyWhenStocked="false"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="-2" idleId="5">
+<creationItem amount="1" fromWarehouse="false" id="6" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="7" idleId="-1"/>
+<destructionItem amount="1" id="2" idleId="8" onlyWhenStocked="false"/>
+<destructionItem amount="1" id="7" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<destructionRequirement idleId="9">
+<destructionItem amount="1" id="2" idleId="8"/>
+<destructionItem amount="1" id="7" idleId="-1"/>
+</destructionRequirement>
+<idle id="1" name="main" sequence="1" total="4"/>
+<idle id="2" name="empty plot" sequence="2" total="1"/>
+<idle id="3" name="dug plot" sequence="3" total="1"/>
+<idle id="4" name="frame" sequence="4" total="4"/>
+<idle id="5" name="completed" sequence="5" total="1"/>
+<idle id="6" name="got plank" sequence="6" total="1"/>
+<idle id="7" name="got builder" sequence="7" total="4"/>
+<idle id="8" name="destruction empty" sequence="8" total="1"/>
+<idle id="9" name="destruction plank" sequence="9" total="1"/>
+<idle id="10" name="issue" sequence="10" total="4"/>
+</image>
+<image dir="Images/sawmill/" hotspot="2|0,-1,-1,-1" id="4" idleId="1" mapObject="false" span="5|5" walkover="31,7,0,0,4">
+<creation skip="2" total="144"/>
+<destruction skip="2" total="15"/>
+<creationRequirement destructionIdleId="2" endFrame="35" idleId="2">
+<creationItem amount="1" fromWarehouse="true" id="5" idleId="-1"/>
+<destructionItem amount="1" id="5" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="8" endFrame="85" idleId="3">
+<creationItem amount="1" fromWarehouse="false" id="5" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="6" idleId="7"/>
+<creationItem amount="1" fromWarehouse="true" id="2" idleId="6"/>
+<destructionItem amount="1" id="6" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="143" idleId="4">
+<creationItem amount="1" fromWarehouse="true" id="2" idleId="-1"/>
+<destructionItem amount="1" id="2" idleId="8" onlyWhenStocked="true"/>
+<destructionItem amount="1" id="6" idleId="-1" onlyWhenStocked="false"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="-2" idleId="5">
+<creationItem amount="1" fromWarehouse="false" id="6" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="9" idleId="-1"/>
+<destructionItem amount="1" id="2" idleId="8" onlyWhenStocked="false"/>
+<destructionItem amount="1" id="9" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<destructionRequirement idleId="9">
+<destructionItem amount="1" id="2" idleId="8"/>
+<destructionItem amount="1" id="7" idleId="-1"/>
+</destructionRequirement>
+<busy directory="1" id="1" name="making planks" skip="2" total="9"/>
+<idle id="1" name="main" sequence="1" total="1"/>
+<idle id="2" name="empty plot" sequence="2" total="1"/>
+<idle id="3" name="dug plot" sequence="3" total="1"/>
+<idle id="4" name="frame" sequence="4" total="4"/>
+<idle id="5" name="completed" sequence="5" total="1"/>
+<idle id="6" name="got plank" sequence="6" total="1"/>
+<idle id="7" name="got builder" sequence="7" total="4"/>
+<idle id="8" name="destruction empty" sequence="8" total="1"/>
+<idle id="9" name="destruction plank" sequence="9" total="1"/>
+<idle id="10" name="issue" sequence="10" total="1"/>
+</image>
+<image dir="Images/warehouse/" hotspot="3|0,-1,-1,-1" id="5" idleId="1" mapObject="false" span="7|6" walkover="127,15,0,0,0,8">
+<creation skip="2" total="228"/>
+<upgrade skip="0" total="0"/>
+<destruction skip="2" total="15"/>
+<creationRequirement destructionIdleId="2" endFrame="71" idleId="2">
+<creationItem amount="1" fromWarehouse="true" id="5" idleId="-1"/>
+<destructionItem amount="1" id="5" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="8" endFrame="139" idleId="3">
+<creationItem amount="1" fromWarehouse="false" id="5" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="2" idleId="6"/>
+<creationItem amount="1" fromWarehouse="true" id="6" idleId="7"/>
+<destructionItem amount="1" id="6" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="227" idleId="4">
+<creationItem amount="1" fromWarehouse="true" id="12" idleId="-1"/>
+<destructionItem amount="1" id="12" idleId="8" onlyWhenStocked="true"/>
+<destructionItem amount="1" id="6" idleId="-1" onlyWhenStocked="false"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="-2" idleId="5">
+<creationItem amount="1" fromWarehouse="false" id="6" idleId="-1"/>
+<creationItem amount="5" fromWarehouse="true" id="13" idleId="-1"/>
+<destructionItem amount="1" id="12" idleId="8" onlyWhenStocked="false"/>
+<destructionItem amount="5" id="13" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<destructionRequirement idleId="9">
+<destructionItem amount="1" id="12" idleId="8"/>
+<destructionItem amount="5" id="13" idleId="-1"/>
+</destructionRequirement>
+<idle id="1" name="main" sequence="1" total="1"/>
+<idle id="2" name="construct empty" sequence="2" total="1"/>
+<idle id="3" name="construct dug" sequence="3" total="1"/>
+<idle id="4" name="construct frame" sequence="4" total="4"/>
+<idle id="5" name="construct complete" sequence="5" total="1"/>
+<idle id="6" name="wood delivered" sequence="6" total="1"/>
+<idle id="7" name="builder waiting" sequence="7" total="4"/>
+<idle id="8" name="destruction empty" sequence="8" total="1"/>
+<idle id="9" name="destruction stone" sequence="9" total="1"/>
+</image>
+<image dir="Images/farm/" hotspot="2|0,-1,-1,-1" id="13" idleId="1" mapObject="false" span="5|5" walkover="31,7,0,0,4">
+<creation skip="2" total="144"/>
+<destruction skip="2" total="15"/>
+<creationRequirement destructionIdleId="2" endFrame="35" idleId="2">
+<creationItem amount="1" fromWarehouse="true" id="5" idleId="-1"/>
+<destructionItem amount="1" id="5" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="8" endFrame="85" idleId="3">
+<creationItem amount="1" fromWarehouse="false" id="5" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="6" idleId="7"/>
+<creationItem amount="1" fromWarehouse="true" id="2" idleId="6"/>
+<destructionItem amount="1" id="6" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="143" idleId="4">
+<creationItem amount="1" fromWarehouse="true" id="2" idleId="-1"/>
+<destructionItem amount="1" id="2" idleId="8" onlyWhenStocked="true"/>
+<destructionItem amount="1" id="6" idleId="-1" onlyWhenStocked="false"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="-2" idleId="5">
+<creationItem amount="1" fromWarehouse="false" id="6" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="31" idleId="-1"/>
+<destructionItem amount="1" id="2" idleId="8" onlyWhenStocked="false"/>
+<destructionItem amount="1" id="31" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<destructionRequirement idleId="9">
+<destructionItem amount="1" id="31" idleId="-1"/>
+<destructionItem amount="1" id="2" idleId="8"/>
+</destructionRequirement>
+<idle id="1" name="main" sequence="1" total="1"/>
+<idle id="2" name="empty plot" sequence="2" total="1"/>
+<idle id="3" name="dug plot" sequence="3" total="1"/>
+<idle id="4" name="frame" sequence="4" total="4"/>
+<idle id="5" name="completed" sequence="5" total="1"/>
+<idle id="6" name="get plank" sequence="6" total="1"/>
+<idle id="7" name="got builder" sequence="7" total="4"/>
+<idle id="8" name="destruction empty" sequence="8" total="1"/>
+<idle id="9" name="destruction plank" sequence="9" total="1"/>
+<idle id="10" name="issue" sequence="10" total="1"/>
+</image>
+<image dir="Images/flour_mill/" hotspot="2|0,-1,-1,-1" id="14" idleId="1" mapObject="false" span="5|5" walkover="31,7,0,0,4">
+<creation skip="2" total="144"/>
+<destruction skip="2" total="15"/>
+<creationRequirement destructionIdleId="2" endFrame="35" idleId="2">
+<creationItem amount="1" fromWarehouse="true" id="5" idleId="-1"/>
+<destructionItem amount="1" id="5" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="8" endFrame="85" idleId="3">
+<creationItem amount="1" fromWarehouse="false" id="5" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="6" idleId="7"/>
+<creationItem amount="1" fromWarehouse="true" id="2" idleId="6"/>
+<destructionItem amount="1" id="6" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="143" idleId="4">
+<creationItem amount="1" fromWarehouse="true" id="2" idleId="-1"/>
+<destructionItem amount="1" id="2" idleId="8" onlyWhenStocked="true"/>
+<destructionItem amount="1" id="6" idleId="-1" onlyWhenStocked="false"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="-2" idleId="5">
+<creationItem amount="1" fromWarehouse="false" id="6" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="34" idleId="-1"/>
+<destructionItem amount="1" id="2" idleId="8" onlyWhenStocked="false"/>
+<destructionItem amount="1" id="34" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<destructionRequirement idleId="9">
+<destructionItem amount="1" id="34" idleId="-1"/>
+<destructionItem amount="1" id="2" idleId="9"/>
+</destructionRequirement>
+<busy directory="1" id="1" name="mill flour" skip="2" total="12"/>
+<idle id="1" name="main" sequence="1" total="1"/>
+<idle id="2" name="empty plot" sequence="2" total="1"/>
+<idle id="3" name="dug plot" sequence="3" total="1"/>
+<idle id="4" name="frame" sequence="4" total="4"/>
+<idle id="5" name="completed" sequence="5" total="1"/>
+<idle id="6" name="got plank" sequence="6" total="1"/>
+<idle id="7" name="got builder" sequence="7" total="4"/>
+<idle id="8" name="destruction empty" sequence="8" total="1"/>
+<idle id="9" name="destruction plank" sequence="9" total="1"/>
+<idle id="10" name="issue" sequence="10" total="1"/>
+</image>
+<image dir="Images/bakery/" hotspot="2|0,-1,-1,-1" id="15" idleId="1" mapObject="false" span="5|5" walkover="31,7,0,0,4">
+<creation skip="2" total="144"/>
+<destruction skip="2" total="15"/>
+<creationRequirement destructionIdleId="2" endFrame="35" idleId="2">
+<creationItem amount="1" fromWarehouse="true" id="5" idleId="-1"/>
+<destructionItem amount="1" id="5" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="8" endFrame="85" idleId="3">
+<creationItem amount="1" fromWarehouse="false" id="5" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="6" idleId="7"/>
+<creationItem amount="1" fromWarehouse="true" id="2" idleId="6"/>
+<destructionItem amount="1" id="6" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="143" idleId="4">
+<creationItem amount="1" fromWarehouse="true" id="2" idleId="-1"/>
+<destructionItem amount="1" id="2" idleId="8" onlyWhenStocked="true"/>
+<destructionItem amount="1" id="6" idleId="-1" onlyWhenStocked="false"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="-2" idleId="5">
+<creationItem amount="1" fromWarehouse="false" id="6" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="37" idleId="-1"/>
+<destructionItem amount="1" id="2" idleId="8" onlyWhenStocked="false"/>
+<destructionItem amount="1" id="37" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<destructionRequirement idleId="9">
+<destructionItem amount="1" id="37" idleId="-1"/>
+<destructionItem amount="1" id="2" idleId="8"/>
+</destructionRequirement>
+<busy directory="1" id="1" name="bake" skip="2" total="12"/>
+<idle id="1" name="main" sequence="1" total="1"/>
+<idle id="2" name="empty plot" sequence="2" total="1"/>
+<idle id="3" name="dug plot" sequence="3" total="1"/>
+<idle id="4" name="frame" sequence="4" total="4"/>
+<idle id="5" name="completed" sequence="5" total="1"/>
+<idle id="6" name="got plank" sequence="6" total="1"/>
+<idle id="7" name="got builder" sequence="7" total="4"/>
+<idle id="8" name="destruction empty" sequence="8" total="1"/>
+<idle id="9" name="destruction plank" sequence="9" total="1"/>
+<idle id="10" name="issue" sequence="10" total="1"/>
+</image>
+<image dir="Images/geologist_hut/" hotspot="2|0,-1,-1,-1" id="30" idleId="1" mapObject="false" span="5|4" walkover="31,31,17,4">
+<creation skip="2" total="1"/>
+<destruction skip="2" total="1"/>
+<creationRequirement destructionIdleId="2" endFrame="-2" idleId="2">
+<creationItem amount="1" fromWarehouse="true" id="55" idleId="-1"/>
+<destructionItem amount="1" id="55" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<destructionRequirement idleId="2">
+<destructionItem amount="1" id="55" idleId="-1"/>
+</destructionRequirement>
+<idle id="1" name="main" sequence="1" total="4"/>
+<idle id="2" name="completed" sequence="2" total="1"/>
+<idle id="3" name="issue" sequence="3" total="4"/>
+</image>
+<image dir="Images/stone_mine/" hotspot="0|0,-1,-1,-1" id="31" idleId="1" mapObject="false" span="7|5" walkover="127,127,127,0,64">
+<creation skip="2" total="126"/>
+<destruction skip="2" total="15"/>
+<creationRequirement destructionIdleId="8" endFrame="65" idleId="2">
+<creationItem amount="1" fromWarehouse="true" id="5" idleId="-1"/>
+<destructionItem amount="1" id="5" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="125" idleId="3">
+<creationItem amount="1" fromWarehouse="false" id="5" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="6" idleId="7"/>
+<creationItem amount="4" fromWarehouse="true" id="2" idleId="6"/>
+<destructionItem amount="1" id="6" idleId="-1" onlyWhenStocked="true"/>
+<destructionItem amount="2" id="2" idleId="8" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="-2" idleId="5">
+<creationItem amount="1" fromWarehouse="false" id="6" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="57" idleId="-1"/>
+<destructionItem amount="1" id="57" idleId="-1" onlyWhenStocked="true"/>
+<destructionItem amount="2" id="2" idleId="9" onlyWhenStocked="false"/>
+</creationRequirement>
+<destructionRequirement idleId="9">
+<destructionItem amount="1" id="57" idleId="-1"/>
+<destructionItem amount="2" id="2" idleId="8"/>
+</destructionRequirement>
+<busy directory="1" id="1" name="mine" skip="2" total="47"/>
+<idle id="1" name="main" sequence="1" total="1"/>
+<idle id="2" name="start construct" sequence="2" total="1"/>
+<idle id="3" name="dug construct" sequence="3" total="1"/>
+<idle id="4" name="wait construct" sequence="4" total="4"/>
+<idle id="5" name="complete construct" sequence="5" total="1"/>
+<idle id="6" name="wood construct" sequence="6" total="1"/>
+<idle id="7" name="wait wood" sequence="7" total="4"/>
+<idle id="8" name="destuct" sequence="8" total="1"/>
+<idle id="9" name="iron destruct" sequence="9" total="1"/>
+<idle id="10" name="issue" sequence="10" total="4"/>
+</image>
+<image dir="Images/iron_mine/" hotspot="0|0,-1,-1,-1" id="32" idleId="1" mapObject="false" span="7|5" walkover="127,127,127,0,64">
+<creation skip="2" total="126"/>
+<destruction skip="2" total="15"/>
+<creationRequirement destructionIdleId="8" endFrame="65" idleId="2">
+<creationItem amount="1" fromWarehouse="true" id="5" idleId="-1"/>
+<destructionItem amount="1" id="5" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="125" idleId="3">
+<creationItem amount="1" fromWarehouse="false" id="5" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="6" idleId="7"/>
+<creationItem amount="4" fromWarehouse="true" id="2" idleId="6"/>
+<destructionItem amount="1" id="6" idleId="-1" onlyWhenStocked="true"/>
+<destructionItem amount="2" id="2" idleId="8" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="-2" idleId="5">
+<creationItem amount="1" fromWarehouse="false" id="6" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="57" idleId="-1"/>
+<destructionItem amount="1" id="57" idleId="-1" onlyWhenStocked="true"/>
+<destructionItem amount="2" id="2" idleId="9" onlyWhenStocked="false"/>
+</creationRequirement>
+<destructionRequirement idleId="9">
+<destructionItem amount="1" id="57" idleId="-1"/>
+<destructionItem amount="2" id="2" idleId="8"/>
+</destructionRequirement>
+<busy directory="1" id="1" name="mine" skip="2" total="47"/>
+<idle id="1" name="main" sequence="1" total="1"/>
+<idle id="2" name="start construct" sequence="2" total="1"/>
+<idle id="3" name="dug construct" sequence="3" total="1"/>
+<idle id="4" name="wait construct" sequence="4" total="4"/>
+<idle id="5" name="complete construct" sequence="5" total="1"/>
+<idle id="6" name="wood construct" sequence="6" total="1"/>
+<idle id="7" name="wait wood" sequence="7" total="4"/>
+<idle id="8" name="destruct" sequence="8" total="1"/>
+<idle id="9" name="iron destruct" sequence="9" total="1"/>
+<idle id="10" name="issue" sequence="10" total="4"/>
+</image>
+<image dir="Images/copper_mine/" hotspot="0|0,-1,-1,-1" id="33" idleId="1" mapObject="false" span="7|5" walkover="127,127,127,0,64">
+<creation skip="2" total="126"/>
+<destruction skip="2" total="15"/>
+<creationRequirement destructionIdleId="8" endFrame="65" idleId="2">
+<creationItem amount="1" fromWarehouse="true" id="5" idleId="-1"/>
+<destructionItem amount="1" id="5" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="125" idleId="3">
+<creationItem amount="1" fromWarehouse="false" id="5" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="6" idleId="7"/>
+<creationItem amount="4" fromWarehouse="true" id="2" idleId="6"/>
+<destructionItem amount="1" id="6" idleId="-1" onlyWhenStocked="true"/>
+<destructionItem amount="2" id="2" idleId="8" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="-2" idleId="5">
+<creationItem amount="1" fromWarehouse="false" id="6" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="57" idleId="-1"/>
+<destructionItem amount="1" id="57" idleId="-1" onlyWhenStocked="true"/>
+<destructionItem amount="2" id="2" idleId="9" onlyWhenStocked="false"/>
+</creationRequirement>
+<destructionRequirement idleId="9">
+<destructionItem amount="1" id="57" idleId="-1"/>
+<destructionItem amount="2" id="2" idleId="8"/>
+</destructionRequirement>
+<busy directory="1" id="1" name="mine" skip="2" total="47"/>
+<idle id="1" name="main" sequence="1" total="1"/>
+<idle id="2" name="start construct" sequence="2" total="1"/>
+<idle id="3" name="dug construct" sequence="3" total="1"/>
+<idle id="4" name="wait construct" sequence="4" total="4"/>
+<idle id="5" name="complete construct" sequence="5" total="1"/>
+<idle id="6" name="wood construct" sequence="6" total="1"/>
+<idle id="7" name="wait wood" sequence="7" total="4"/>
+<idle id="8" name="destruct" sequence="8" total="1"/>
+<idle id="9" name="iron destruct" sequence="9" total="1"/>
+<idle id="10" name="issue" sequence="10" total="4"/>
+</image>
+<image dir="Images/coal_mine/" hotspot="0|0,-1,-1,-1" id="34" idleId="1" mapObject="false" span="7|5" walkover="127,127,127,0,64">
+<creation skip="2" total="126"/>
+<destruction skip="2" total="15"/>
+<creationRequirement destructionIdleId="8" endFrame="65" idleId="2">
+<creationItem amount="1" fromWarehouse="true" id="5" idleId="-1"/>
+<destructionItem amount="1" id="5" idleId="-1" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="125" idleId="3">
+<creationItem amount="1" fromWarehouse="false" id="5" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="6" idleId="7"/>
+<creationItem amount="4" fromWarehouse="true" id="2" idleId="6"/>
+<destructionItem amount="1" id="6" idleId="-1" onlyWhenStocked="true"/>
+<destructionItem amount="2" id="2" idleId="8" onlyWhenStocked="true"/>
+</creationRequirement>
+<creationRequirement destructionIdleId="9" endFrame="-2" idleId="5">
+<creationItem amount="1" fromWarehouse="false" id="6" idleId="-1"/>
+<creationItem amount="1" fromWarehouse="true" id="57" idleId="-1"/>
+<destructionItem amount="1" id="57" idleId="-1" onlyWhenStocked="true"/>
+<destructionItem amount="2" id="2" idleId="9" onlyWhenStocked="false"/>
+</creationRequirement>
+<destructionRequirement idleId="9">
+<destructionItem amount="1" id="57" idleId="-1"/>
+<destructionItem amount="2" id="2" idleId="8"/>
+</destructionRequirement>
+<busy directory="1" id="1" name="mine" skip="2" total="47"/>
+<idle id="1" name="main" sequence="1" total="1"/>
+<idle id="2" name="start construct" sequence="2" total="1"/>
+<idle id="3" name="dug construct" sequence="3" total="1"/>
+<idle id="4" name="wait construct" sequence="4" total="4"/>
+<idle id="5" name="complete construct" sequence="5" total="1"/>
+<idle id="6" name="wood construct" sequence="6" total="1"/>
+<idle id="7" name="wait wood" sequence="7" total="4"/>
+<idle id="8" name="destruct" sequence="8" total="1"/>
+<idle id="9" name="iron destruct" sequence="9" total="1"/>
+<idle id="10" name="issue" sequence="10" total="4"/>
+</image>
+</images>
+<mapitems>
+<mapitem allowedon="-1" drawFirst="false" id="1" image="1" name="tree" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Baum" type="title"/>
+<info locale="en" text="Tree" type="title"/>
+<info locale="de" text="enthält 1 Holz, nach der Sammlung zerstört" type="description"/>
+<info locale="en" text="contains 1 wood, destroyed after collection" type="description"/>
+<mapitematt amount="1" id="1" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="-1" name="plant tree" state="1"/>
+<action busy="2" id="2" mapitem="-1" name="cut down tree" state="2"/>
+</mapitem>
+<mapitem allowedon="-1" drawFirst="false" id="2" image="6" name="apple tree" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Apfelbaum" type="title"/>
+<info locale="en" text="Apple Tree" type="title"/>
+<info locale="de" text="enthält 1 Holz, nach der Sammlung zerstört" type="description"/>
+<info locale="en" text="contains 1 wood, destroyed after collection" type="description"/>
+<mapitematt amount="1" id="1" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="-1" name="plant tree" state="1"/>
+<action busy="2" id="2" mapitem="-1" name="cut down tree" state="2"/>
+</mapitem>
+<mapitem allowedon="-1" drawFirst="false" id="5" image="12" name="wheat" onElapse="1" showAttributes="true" time="74">
+<info locale="de" text="Weizen" type="title"/>
+<info locale="en" text="Wheat" type="title"/>
+<info locale="de" text="enthält 1 Mais, nach der Sammlung zerstört" type="description"/>
+<info locale="en" text="contains 1 corn, destroyed after collection" type="description"/>
+<mapitematt amount="1" id="28" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="-1" name="decaying" state="2"/>
+<action busy="2" id="2" mapitem="-1" name="sowing" state="1"/>
+<action busy="3" id="3" mapitem="-1" name="reaping" state="2"/>
+</mapitem>
+<mapitem allowedon="-1" drawFirst="true" id="7" image="20" name="mountain" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Berg" type="title"/>
+<info locale="en" text="Mountain" type="title"/>
+<info locale="de" text="Nur Bergwerke können auf Bergen gebaut werden" type="description"/>
+<info locale="en" text="only mines can be built on mountains" type="description"/>
+</mapitem>
+<mapitem allowedon="-1" drawFirst="true" id="8" image="21" name="ne mountain" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Berg" type="title"/>
+<info locale="en" text="Mountain" type="title"/>
+<info locale="de" text="Nur Bergwerke können auf Bergen gebaut werden" type="description"/>
+<info locale="en" text="only mines can be built on mountains" type="description"/>
+</mapitem>
+<mapitem allowedon="-1" drawFirst="true" id="9" image="22" name="nw mountain" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Berg" type="title"/>
+<info locale="en" text="Mountain" type="title"/>
+<info locale="de" text="Nur Bergwerke können auf Bergen gebaut werden" type="description"/>
+<info locale="en" text="only mines can be built on mountains" type="description"/>
+</mapitem>
+<mapitem allowedon="-1" drawFirst="true" id="10" image="23" name="se mountain" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Berg" type="title"/>
+<info locale="en" text="Mountain" type="title"/>
+<info locale="de" text="Nur Bergwerke können auf Bergen gebaut werden" type="description"/>
+<info locale="en" text="only mines can be built on mountains" type="description"/>
+</mapitem>
+<mapitem allowedon="-1" drawFirst="true" id="11" image="24" name="sw mountain" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Berg" type="title"/>
+<info locale="en" text="Mountain" type="title"/>
+<info locale="de" text="Nur Bergwerke können auf Bergen gebaut werden" type="description"/>
+<info locale="en" text="only mines can be built on mountains" type="description"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="12" image="25" name="hidden stone 5" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Versteckte Ressource" type="title"/>
+<info locale="en" text="Hidden Resource" type="title"/>
+<info locale="de" text="Ein Geologe wird Ihnen sagen, was da ist" type="description"/>
+<info locale="en" text="An Geologist will tell you what is there" type="description"/>
+<mapitematt amount="1" id="12" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="13" name="discovering" state="3"/>
+<action busy="-1" id="3" mapitem="20" name="remove 1 stone" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="13" image="26" name="stone resource 5" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Steinvorkommen" type="title"/>
+<info locale="en" text="Stone Deposit" type="title"/>
+<info locale="de" text="Stein, der mit einer Steinmine gesammelt werden kann" type="description"/>
+<info locale="en" text="Stone that can be collected with a stone mine" type="description"/>
+<mapitematt amount="5" id="12" onDepletion="1"/>
+<action busy="-1" id="1" mapitem="-1" name="cleared" state="2"/>
+<action busy="-1" id="2" mapitem="-1" name="get one stone" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="14" image="25" name="hidden iron 5" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Versteckte Ressource" type="title"/>
+<info locale="en" text="Hidden Resource" type="title"/>
+<info locale="de" text="Ein Geologe wird Ihnen sagen, was da ist" type="description"/>
+<info locale="en" text="An Geologist will tell you what is there" type="description"/>
+<mapitematt amount="1" id="52" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="15" name="discovering" state="3"/>
+<action busy="-1" id="3" mapitem="22" name="remove 1 iron" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="15" image="27" name="iron resource 5" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Eisenvorkommen" type="title"/>
+<info locale="en" text="Iron Deposit" type="title"/>
+<info locale="de" text="Eisenerz, das mit einer Eisenmine gewonnen werden kann" type="description"/>
+<info locale="en" text="Iron Ore that can be collected with a Iron mine" type="description"/>
+<mapitematt amount="5" id="52" onDepletion="1"/>
+<action busy="-1" id="1" mapitem="-1" name="cleared" state="2"/>
+<action busy="-1" id="2" mapitem="-1" name="get one iron ore" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="16" image="25" name="hidden copper 5" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Versteckte Ressource" type="title"/>
+<info locale="en" text="Hidden Resource" type="title"/>
+<info locale="de" text="Ein Geologe wird Ihnen sagen, was da ist" type="description"/>
+<info locale="en" text="An Geologist will tell you what is there" type="description"/>
+<mapitematt amount="1" id="53" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="17" name="discovering" state="3"/>
+<action busy="-1" id="3" mapitem="24" name="remove 1 copper" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="17" image="28" name="copper resource 5" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Kupfervorkommen" type="title"/>
+<info locale="en" text="Copper Deposit" type="title"/>
+<info locale="de" text="Kupfererz, das mit einer Kupfermine gesammelt werden kann" type="description"/>
+<info locale="en" text="Copper Ore that can be collected with a Copper mine" type="description"/>
+<mapitematt amount="5" id="53" onDepletion="1"/>
+<action busy="-1" id="1" mapitem="-1" name="cleared" state="2"/>
+<action busy="-1" id="2" mapitem="-1" name="get one copper" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="18" image="25" name="hidden coal 5" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Versteckte Ressource" type="title"/>
+<info locale="en" text="Hidden Resource" type="title"/>
+<info locale="de" text="Ein Geologe wird Ihnen sagen, was da ist" type="description"/>
+<info locale="en" text="An Geologist will tell you what is there" type="description"/>
+<mapitematt amount="1" id="54" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="19" name="discovering" state="3"/>
+<action busy="-1" id="3" mapitem="26" name="remove 1 coal" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="19" image="29" name="coal resource 5" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Kohlevorkommen" type="title"/>
+<info locale="en" text="Coal Deposit" type="title"/>
+<info locale="de" text="Kohle, die mit einer Kohlemine gesammelt werden kann" type="description"/>
+<info locale="en" text="Coal that can be collected with a Coal mine" type="description"/>
+<mapitematt amount="5" id="54" onDepletion="1"/>
+<action busy="-1" id="1" mapitem="-1" name="cleared" state="2"/>
+<action busy="-1" id="2" mapitem="-1" name="get one coal" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="20" image="25" name="hidden stone 4" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Versteckte Ressource" type="title"/>
+<info locale="en" text="Hidden Resource" type="title"/>
+<info locale="de" text="Ein Geologe wird Ihnen sagen, was da ist" type="description"/>
+<info locale="en" text="An Geologist will tell you what is there" type="description"/>
+<mapitematt amount="1" id="12" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="21" name="discovering" state="3"/>
+<action busy="-1" id="3" mapitem="28" name="remove 1 stone" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="21" image="26" name="stone resource 4" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Steinvorkommen" type="title"/>
+<info locale="en" text="Stone Deposit" type="title"/>
+<info locale="de" text="Stein, der mit einer Steinmine gesammelt werden kann" type="description"/>
+<info locale="en" text="Stone that can be collected with a stone mine" type="description"/>
+<mapitematt amount="4" id="12" onDepletion="1"/>
+<action busy="-1" id="1" mapitem="-1" name="cleared" state="2"/>
+<action busy="-1" id="2" mapitem="-1" name="get one stone" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="22" image="25" name="hidden iron 4" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Versteckte Ressource" type="title"/>
+<info locale="en" text="Hidden Resource" type="title"/>
+<info locale="de" text="Ein Geologe wird Ihnen sagen, was da ist" type="description"/>
+<info locale="en" text="An Geologist will tell you what is there" type="description"/>
+<mapitematt amount="1" id="52" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="23" name="discovering" state="3"/>
+<action busy="-1" id="3" mapitem="30" name="remove 1 iron" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="23" image="27" name="iron resource 4" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Eisenvorkommen" type="title"/>
+<info locale="en" text="Iron Deposit" type="title"/>
+<info locale="de" text="Eisenerz, das mit einer Eisenmine gewonnen werden kann" type="description"/>
+<info locale="en" text="Iron Ore that can be collected with a Iron mine" type="description"/>
+<mapitematt amount="4" id="52" onDepletion="1"/>
+<action busy="-1" id="1" mapitem="-1" name="cleared" state="2"/>
+<action busy="-1" id="2" mapitem="-1" name="get one iron" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="24" image="25" name="hidden copper 4" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Versteckte Ressource" type="title"/>
+<info locale="en" text="Hidden Resource" type="title"/>
+<info locale="de" text="Ein Geologe wird Ihnen sagen, was da ist" type="description"/>
+<info locale="en" text="An Geologist will tell you what is there" type="description"/>
+<mapitematt amount="1" id="53" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="25" name="discovering" state="3"/>
+<action busy="-1" id="3" mapitem="32" name="remove 1 copper" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="25" image="28" name="copper resource 4" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Kupfervorkommen" type="title"/>
+<info locale="en" text="Copper Deposit" type="title"/>
+<info locale="de" text="Kupfererz, das mit einer Kupfermine gesammelt werden kann" type="description"/>
+<info locale="en" text="Copper Ore that can be collected with a Copper mine" type="description"/>
+<mapitematt amount="4" id="53" onDepletion="1"/>
+<action busy="-1" id="1" mapitem="-1" name="cleared" state="2"/>
+<action busy="-1" id="2" mapitem="-1" name="get one copper" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="26" image="25" name="hidden coal 4" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Versteckte Ressource" type="title"/>
+<info locale="en" text="Hidden Resource" type="title"/>
+<info locale="de" text="Ein Geologe wird Ihnen sagen, was da ist" type="description"/>
+<info locale="en" text="An Geologist will tell you what is there" type="description"/>
+<mapitematt amount="1" id="54" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="27" name="discovering" state="3"/>
+<action busy="-1" id="3" mapitem="34" name="remove 1 coal" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="27" image="29" name="coal resource 4" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Kohlevorkommen" type="title"/>
+<info locale="en" text="Coal Deposit" type="title"/>
+<info locale="de" text="Kohle, die mit einer Kohlemine gesammelt werden kann" type="description"/>
+<info locale="en" text="Coal that can be collected with a Coal mine" type="description"/>
+<mapitematt amount="4" id="54" onDepletion="1"/>
+<action busy="-1" id="1" mapitem="-1" name="cleared" state="2"/>
+<action busy="-1" id="2" mapitem="-1" name="get one coal" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="28" image="25" name="hidden stone 3" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Versteckte Ressource" type="title"/>
+<info locale="en" text="Hidden Resource" type="title"/>
+<info locale="de" text="Ein Geologe wird Ihnen sagen, was da ist" type="description"/>
+<info locale="en" text="An Geologist will tell you what is there" type="description"/>
+<mapitematt amount="1" id="12" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="29" name="discovering" state="3"/>
+<action busy="-1" id="3" mapitem="36" name="remove 1 stone" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="29" image="26" name="stone resource 3" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Steinvorkommen" type="title"/>
+<info locale="en" text="Stone Deposit" type="title"/>
+<info locale="de" text="Stein, der mit einer Steinmine gesammelt werden kann" type="description"/>
+<info locale="en" text="Stone that can be collected with a stone mine" type="description"/>
+<mapitematt amount="3" id="12" onDepletion="1"/>
+<action busy="-1" id="1" mapitem="-1" name="cleared" state="2"/>
+<action busy="-1" id="2" mapitem="-1" name="get one stone" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="30" image="25" name="hidden iron 3" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Versteckte Ressource" type="title"/>
+<info locale="en" text="Hidden Resource" type="title"/>
+<info locale="de" text="Ein Geologe wird Ihnen sagen, was da ist" type="description"/>
+<info locale="en" text="An Geologist will tell you what is there" type="description"/>
+<mapitematt amount="1" id="52" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="31" name="discovering" state="3"/>
+<action busy="-1" id="3" mapitem="38" name="remove 1 iron" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="31" image="27" name="iron resource 3" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Eisenvorkommen" type="title"/>
+<info locale="en" text="Iron Deposit" type="title"/>
+<info locale="de" text="Eisenerz, das mit einer Eisenmine gewonnen werden kann" type="description"/>
+<info locale="en" text="Iron Ore that can be collected with a Iron mine" type="description"/>
+<mapitematt amount="3" id="52" onDepletion="1"/>
+<action busy="-1" id="1" mapitem="-1" name="cleared" state="2"/>
+<action busy="-1" id="2" mapitem="-1" name="get one iron" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="32" image="25" name="hidden copper 3" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Versteckte Ressource" type="title"/>
+<info locale="en" text="Hidden Resource" type="title"/>
+<info locale="de" text="Ein Geologe wird Ihnen sagen, was da ist" type="description"/>
+<info locale="en" text="An Geologist will tell you what is there" type="description"/>
+<mapitematt amount="1" id="53" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="33" name="discovering" state="3"/>
+<action busy="-1" id="3" mapitem="40" name="remove 1 copper" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="33" image="28" name="copper resource 3" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Kupfervorkommen" type="title"/>
+<info locale="en" text="Copper Deposit" type="title"/>
+<info locale="de" text="Kupfererz, das mit einer Kupfermine gesammelt werden kann" type="description"/>
+<info locale="en" text="Copper Ore that can be collected with a Copper mine" type="description"/>
+<mapitematt amount="3" id="53" onDepletion="1"/>
+<action busy="-1" id="1" mapitem="-1" name="cleared" state="2"/>
+<action busy="-1" id="2" mapitem="-1" name="get one copper" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="34" image="25" name="hidden coal 3" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Versteckte Ressource" type="title"/>
+<info locale="en" text="Hidden Resource" type="title"/>
+<info locale="de" text="Ein Geologe wird Ihnen sagen, was da ist" type="description"/>
+<info locale="en" text="An Geologist will tell you what is there" type="description"/>
+<mapitematt amount="1" id="54" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="35" name="discovering" state="3"/>
+<action busy="-1" id="3" mapitem="42" name="remove 1 coal" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="35" image="29" name="coal  resource 3" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Kohlevorkommen" type="title"/>
+<info locale="en" text="Coal Deposit" type="title"/>
+<info locale="de" text="Kohle, die mit einer Kohlemine gesammelt werden kann" type="description"/>
+<info locale="en" text="Coal that can be collected with a Coal mine" type="description"/>
+<mapitematt amount="3" id="54" onDepletion="1"/>
+<action busy="-1" id="1" mapitem="-1" name="cleared" state="2"/>
+<action busy="-1" id="2" mapitem="-1" name="get one coal" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="36" image="25" name="hidden stone 2" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Versteckte Ressource" type="title"/>
+<info locale="en" text="Hidden Resource" type="title"/>
+<info locale="de" text="Ein Geologe wird Ihnen sagen, was da ist" type="description"/>
+<info locale="en" text="An Geologist will tell you what is there" type="description"/>
+<mapitematt amount="1" id="12" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="37" name="discovering" state="3"/>
+<action busy="-1" id="3" mapitem="44" name="remove 1 stone" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="37" image="26" name="stone resource 2" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Steinvorkommen" type="title"/>
+<info locale="en" text="Stone Deposit" type="title"/>
+<info locale="de" text="Stein, der mit einer Steinmine gesammelt werden kann" type="description"/>
+<info locale="en" text="Stone that can be collected with a stone mine" type="description"/>
+<mapitematt amount="2" id="12" onDepletion="1"/>
+<action busy="-1" id="1" mapitem="-1" name="cleared" state="2"/>
+<action busy="-1" id="2" mapitem="-1" name="get one stone" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="38" image="25" name="hidden iron 2" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Versteckte Ressource" type="title"/>
+<info locale="en" text="Hidden Resource" type="title"/>
+<info locale="de" text="Ein Geologe wird Ihnen sagen, was da ist" type="description"/>
+<info locale="en" text="An Geologist will tell you what is there" type="description"/>
+<mapitematt amount="1" id="52" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="39" name="discovering" state="3"/>
+<action busy="-1" id="3" mapitem="46" name="remove 1 iron" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="39" image="27" name="iron resource 2" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Eisenvorkommen" type="title"/>
+<info locale="en" text="Iron Deposit" type="title"/>
+<info locale="de" text="Eisenerz, das mit einer Eisenmine gewonnen werden kann" type="description"/>
+<info locale="en" text="Iron Ore that can be collected with a Iron mine" type="description"/>
+<mapitematt amount="2" id="52" onDepletion="1"/>
+<action busy="-1" id="1" mapitem="-1" name="cleared" state="2"/>
+<action busy="-1" id="2" mapitem="-1" name="get one iron" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="40" image="25" name="hidden copper 2" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Versteckte Ressource" type="title"/>
+<info locale="en" text="Hidden Resource" type="title"/>
+<info locale="de" text="Ein Geologe wird Ihnen sagen, was da ist" type="description"/>
+<info locale="en" text="An Geologist will tell you what is there" type="description"/>
+<mapitematt amount="1" id="53" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="41" name="discovery" state="3"/>
+<action busy="-1" id="4" mapitem="48" name="remove 1 copper" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="41" image="28" name="copper resource 2" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Kupfervorkommen" type="title"/>
+<info locale="en" text="Copper Deposit" type="title"/>
+<info locale="de" text="Kupfererz, das mit einer Kupfermine gesammelt werden kann" type="description"/>
+<info locale="en" text="Copper Ore that can be collected with a Copper mine" type="description"/>
+<mapitematt amount="2" id="53" onDepletion="1"/>
+<action busy="-1" id="1" mapitem="-1" name="cleared" state="2"/>
+<action busy="-1" id="2" mapitem="-1" name="get one copper" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="42" image="25" name="hidden coal 2" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Versteckte Ressource" type="title"/>
+<info locale="en" text="Hidden Resource" type="title"/>
+<info locale="de" text="Ein Geologe wird Ihnen sagen, was da ist" type="description"/>
+<info locale="en" text="An Geologist will tell you what is there" type="description"/>
+<mapitematt amount="1" id="54" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="43" name="discovering" state="3"/>
+<action busy="-1" id="3" mapitem="50" name="remove 1 coal" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="43" image="29" name="coal resource 2" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Kohlevorkommen" type="title"/>
+<info locale="en" text="Coal Deposit" type="title"/>
+<info locale="de" text="Kohle, die mit einer Kohlemine gesammelt werden kann" type="description"/>
+<info locale="en" text="Coal that can be collected with a Coal mine" type="description"/>
+<mapitematt amount="2" id="54" onDepletion="1"/>
+<action busy="-1" id="1" mapitem="-1" name="cleared" state="2"/>
+<action busy="-1" id="2" mapitem="-1" name="get one coal" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="44" image="25" name="hidden stone 1" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Versteckte Ressource" type="title"/>
+<info locale="en" text="Hidden Resource" type="title"/>
+<info locale="de" text="Ein Geologe wird Ihnen sagen, was da ist" type="description"/>
+<info locale="en" text="An Geologist will tell you what is there" type="description"/>
+<mapitematt amount="1" id="12" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="45" name="discovering" state="3"/>
+<action busy="-1" id="3" mapitem="-1" name="remove 1 stone" state="2"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="45" image="26" name="stone resource 1" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Steinvorkommen" type="title"/>
+<info locale="en" text="Stone Deposit" type="title"/>
+<info locale="de" text="Stein, der mit einer Steinmine gesammelt werden kann" type="description"/>
+<info locale="en" text="Stone that can be collected with a stone mine" type="description"/>
+<mapitematt amount="1" id="12" onDepletion="1"/>
+<action busy="-1" id="1" mapitem="-1" name="cleared" state="2"/>
+<action busy="-1" id="2" mapitem="-1" name="get one stone" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="46" image="25" name="hidden iron 1" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Versteckte Ressource" type="title"/>
+<info locale="en" text="Hidden Resource" type="title"/>
+<info locale="de" text="Ein Geologe wird Ihnen sagen, was da ist" type="description"/>
+<info locale="en" text="An Geologist will tell you what is there" type="description"/>
+<mapitematt amount="1" id="52" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="47" name="discovering" state="3"/>
+<action busy="-1" id="3" mapitem="-1" name="remove 1 iron" state="2"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="47" image="27" name="iron resource 1" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Eisenvorkommen" type="title"/>
+<info locale="en" text="Iron Deposit" type="title"/>
+<info locale="de" text="Eisenerz, das mit einer Eisenmine gewonnen werden kann" type="description"/>
+<info locale="en" text="Iron Ore that can be collected with a Iron mine" type="description"/>
+<mapitematt amount="1" id="52" onDepletion="1"/>
+<action busy="-1" id="1" mapitem="-1" name="clearded" state="2"/>
+<action busy="-1" id="2" mapitem="-1" name="get one iron" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="48" image="25" name="hidden copper 1" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Versteckte Ressource" type="title"/>
+<info locale="en" text="Hidden Resource" type="title"/>
+<info locale="de" text="Ein Geologe wird Ihnen sagen, was da ist" type="description"/>
+<info locale="en" text="An Geologist will tell you what is there" type="description"/>
+<mapitematt amount="1" id="53" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="49" name="discovering" state="3"/>
+<action busy="-1" id="4" mapitem="-1" name="remove 1 copper" state="2"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="49" image="28" name="copper resource 1" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Kupfervorkommen" type="title"/>
+<info locale="en" text="Copper Deposit" type="title"/>
+<info locale="de" text="Kupfererz, das mit einer Kupfermine gesammelt werden kann" type="description"/>
+<info locale="en" text="Copper Ore that can be collected with a Copper mine" type="description"/>
+<mapitematt amount="1" id="53" onDepletion="1"/>
+<action busy="-1" id="1" mapitem="-1" name="cleared" state="2"/>
+<action busy="-1" id="2" mapitem="-1" name="get one copper" state="3"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="50" image="25" name="hidden coal 1" onElapse="0" showAttributes="false" time="-1">
+<info locale="de" text="Versteckte Ressource" type="title"/>
+<info locale="en" text="Hidden Resource" type="title"/>
+<info locale="de" text="Ein Geologe wird Ihnen sagen, was da ist" type="description"/>
+<info locale="en" text="An Geologist will tell you what is there" type="description"/>
+<mapitematt amount="1" id="54" onDepletion="-1"/>
+<action busy="1" id="1" mapitem="51" name="discovering" state="3"/>
+<action busy="-1" id="4" mapitem="-1" name="remove 1 coal" state="2"/>
+</mapitem>
+<mapitem allowedon="7" drawFirst="true" id="51" image="29" name="coal resource 1" onElapse="0" showAttributes="true" time="-1">
+<info locale="de" text="Kohlevorkommen" type="title"/>
+<info locale="en" text="Coal Deposit" type="title"/>
+<info locale="de" text="Kohle, die mit einer Kohlemine gesammelt werden kann" type="description"/>
+<info locale="en" text="Coal that can be collected with a Coal mine" type="description"/>
+<mapitematt amount="1" id="54" onDepletion="1"/>
+<action busy="-1" id="1" mapitem="-1" name="cleared" state="2"/>
+<action busy="-1" id="2" mapitem="-1" name="get one coal" state="3"/>
+</mapitem>
+</mapitems>
+<buildings>
+<building allowedon="-1" id="1" image="2" isWarehouse="false" name="forseter" workers="1">
+<info locale="de" text="Försterhütte" type="title"/>
+<info locale="en" text="Forester Hut" type="title"/>
+<info locale="de" text="Pflanzen Bäume &lt;br&gt; &lt;br&gt;Anforderungen erstellen: &lt;br&gt;benötigt einen Leveler und einen Erbauer, &lt;br&gt;benutzt 2 Planken" type="description"/>
+<info locale="en" text="plants trees &lt;br&gt; &lt;br&gt;Build Requirements: &lt;br&gt;requires a leveller and a builder, &lt;br&gt;uses 2 planks" type="description"/>
+<action busy="-1" issueIdle="10" mustFulfill="false" title="plant tree">
+<info locale="de" text="Baum einpflanzen" type="title"/>
+<info locale="en" text="plant tree" type="title"/>
+<produce amount="1" item="-1">
+<workerAction carry="1" in="3" out="4"/>
+<mapItemAction action="1" mapitem="1"/>
+<mapItemAction action="1" mapitem="2"/>
+</produce>
+</action>
+<area areaSize="10" isFixed="false"/>
+</building>
+<building allowedon="-1" id="2" image="3" isWarehouse="false" name="woodcutter" workers="1">
+<info locale="de" text="Holzfällerhütte" type="title"/>
+<info locale="en" text="Woodcutter Hut" type="title"/>
+<info locale="de" text="schneidet Baum für 1 Holz &lt;br&gt; &lt;br&gt;Anforderungen erstellen: &lt;br&gt;benötigt einen Leveler und einen Erbauer, &lt;br&gt;benutzt 2 Planken" type="description"/>
+<info locale="en" text="cuts down tree for 1 wood &lt;br&gt; &lt;br&gt;Build Requirements: &lt;br&gt;requires a leveller and a builder, &lt;br&gt;uses 2 planks" type="description"/>
+<action busy="-1" issueIdle="10" mustFulfill="false" title="cut down tree">
+<info locale="de" text="Baum fällen" type="title"/>
+<info locale="en" text="chop down tree" type="title"/>
+<require amount="1" item="1">
+<workerAction carry="1" in="8" out="7"/>
+<mapItemAction action="2" mapitem="1"/>
+<mapItemAction action="2" mapitem="2"/>
+</require>
+<produce amount="1" item="1">
+<workerAction carry="1" in="7" out="8"/>
+</produce>
+</action>
+<area areaSize="10" isFixed="false"/>
+</building>
+<building allowedon="-1" id="3" image="4" isWarehouse="false" name="sawmill" workers="1">
+<info locale="de" text="Sägewerk" type="title"/>
+<info locale="en" text="Sawmill" type="title"/>
+<info locale="de" text="nimmt 1 Holz aus dem Lagerhaus und verwandelt es in 1 Planke &lt;br&gt; &lt;br&gt;Anforderungen erstellen: &lt;br&gt;benötigt einen Leveler und einen Erbauer, &lt;br&gt;benutzt 2 Planken" type="description"/>
+<info locale="en" text="takes 1 wood from warehouse and turns it into 1 plank &lt;br&gt; &lt;br&gt;Build Requirements: &lt;br&gt;requires a leveller and a builder, &lt;br&gt;uses 2 planks" type="description"/>
+<action busy="1" issueIdle="10" mustFulfill="false" title="turn 1 wood into 1 plank">
+<info locale="de" text="1 Holz in 1 Planke verwandeln" type="title"/>
+<info locale="en" text="turn 1 wood into 1 plank" type="title"/>
+<require amount="1" item="1">
+<workerAction carry="1" in="10" out="9"/>
+</require>
+<produce amount="1" item="2">
+<workerAction carry="1" in="9" out="11"/>
+</produce>
+</action>
+<area areaSize="0" isFixed="false"/>
+</building>
+<building allowedon="-1" id="4" image="5" isWarehouse="true" name="warehouse" workers="5">
+<info locale="de" text="Kleines Lagerhaus" type="title"/>
+<info locale="en" text="Small Warehouse" type="title"/>
+<info locale="de" text="aufbewahren ding &lt;br&gt; &lt;br&gt;Anforderungen erstellen: &lt;br&gt;benötigt einen Leveler und einen Erbauer, &lt;br&gt;benutzt 1 Planke und 1 Stein" type="description"/>
+<info locale="en" text="store items &lt;br&gt; &lt;br&gt;Build Requirements: &lt;br&gt;requires a leveller and a builder, &lt;br&gt;uses 1 plank and 1 stone" type="description"/>
+<item amount="50" id="1">
+<workerAction carry="10" in="13" out="14"/>
+</item>
+<item amount="50" id="2">
+<workerAction carry="10" in="13" out="15"/>
+</item>
+<item amount="50" id="12">
+<workerAction carry="10" in="13" out="16"/>
+</item>
+<item amount="50" id="28">
+<workerAction carry="10" in="13" out="43"/>
+</item>
+<item amount="50" id="29">
+<workerAction carry="10" in="13" out="44"/>
+</item>
+<item amount="50" id="30">
+<workerAction carry="10" in="13" out="45"/>
+</item>
+<item amount="50" id="52">
+<workerAction carry="10" in="13" out="65"/>
+</item>
+<item amount="50" id="53">
+<workerAction carry="10" in="13" out="66"/>
+</item>
+<item amount="50" id="54">
+<workerAction carry="10" in="13" out="64"/>
+</item>
+<item amount="50" id="3"/>
+<item amount="50" id="5"/>
+<item amount="50" id="6"/>
+<item amount="50" id="7"/>
+<item amount="50" id="9"/>
+<item amount="50" id="13">
+<make amount="1" frequency="10"/>
+</item>
+<item amount="50" id="31"/>
+<item amount="50" id="34"/>
+<item amount="50" id="37"/>
+<item amount="50" id="55"/>
+<item amount="50" id="57"/>
+</building>
+<building allowedon="-1" id="11" image="13" isWarehouse="false" name="farm" workers="1">
+<info locale="de" text="Weizenfarm" type="title"/>
+<info locale="en" text="Wheat Farm" type="title"/>
+<info locale="de" text="Sauen Mais und erntet Mais &lt;br&gt; &lt;br&gt;Anforderungen erstellen: &lt;br&gt;benötigt einen Leveler und einen Erbauer, &lt;br&gt;benutzt 2 Planken" type="description"/>
+<info locale="en" text="sows corn and reaps corn &lt;br&gt; &lt;br&gt;Build Requirements: &lt;br&gt;requires a leveller and a builder, &lt;br&gt;uses 2 planks" type="description"/>
+<action busy="-1" issueIdle="10" mustFulfill="false" title="sow">
+<info locale="de" text="Sau Weizen" type="title"/>
+<info locale="en" text="sow wheat" type="title"/>
+<produce amount="1" item="-1">
+<workerAction carry="1" in="31" out="32"/>
+<mapItemAction action="2" mapitem="5"/>
+</produce>
+</action>
+<action busy="-1" issueIdle="10" mustFulfill="false" title="reap corn">
+<info locale="de" text="ernten Mais" type="title"/>
+<info locale="en" text="reap corn" type="title"/>
+<require amount="1" item="28">
+<workerAction carry="1" in="33" out="31"/>
+<mapItemAction action="3" mapitem="5"/>
+</require>
+<produce amount="1" item="28">
+<workerAction carry="1" in="31" out="33"/>
+</produce>
+</action>
+<area areaSize="4" isFixed="false"/>
+</building>
+<building allowedon="-1" id="12" image="14" isWarehouse="false" name="flour mill" workers="1">
+<info locale="de" text="Mehl Mühle" type="title"/>
+<info locale="en" text="Flour Mill" type="title"/>
+<info locale="de" text="Nimmt 1 Mais aus dem Lagerhaus und verwandelt es in 1 Mehl &lt;br&gt; &lt;br&gt;Anforderungen erstellen: &lt;br&gt;benötigt einen Leveler und einen Erbauer, &lt;br&gt;benutzt 2 Planken" type="description"/>
+<info locale="en" text="takes 1 corn from a Warehouse and turns it into 1 flour &lt;br&gt; &lt;br&gt;Build Requirements: &lt;br&gt;requires a leveller and a builder, &lt;br&gt;uses 2 planks" type="description"/>
+<action busy="1" issueIdle="10" mustFulfill="false" title="grind corn">
+<info locale="de" text="Verwandle 1 Mais in 1 Mehl" type="title"/>
+<info locale="en" text="turn 1 corn into 1 flour" type="title"/>
+<require amount="1" item="28">
+<workerAction carry="1" in="36" out="34"/>
+</require>
+<produce amount="1" item="29">
+<workerAction carry="1" in="34" out="35"/>
+</produce>
+</action>
+<area areaSize="0" isFixed="false"/>
+</building>
+<building allowedon="-1" id="13" image="15" isWarehouse="false" name="bakery" workers="1">
+<info locale="de" text="Bäckerei" type="title"/>
+<info locale="en" text="Bakery" type="title"/>
+<info locale="de" text="Nimmt 1 Mehl aus dem Lagerhaus und verwandelt es in 1 Brot &lt;br&gt; &lt;br&gt;Anforderungen erstellen: &lt;br&gt;benötigt einen Leveler und einen Erbauer, &lt;br&gt;benutzt 2 Planken" type="description"/>
+<info locale="en" text="takes 1 flour from a Warehouse and turns it into 1 bread &lt;br&gt; &lt;br&gt;Build Requirements: &lt;br&gt;requires a leveller and a builder, &lt;br&gt;uses 2 planks" type="description"/>
+<action busy="1" issueIdle="10" mustFulfill="false" title="make bread">
+<info locale="de" text="verwandeln 1 Mehl in 1 Brot" type="title"/>
+<info locale="en" text="turn 1 flour into 1 bread" type="title"/>
+<require amount="1" item="29">
+<workerAction carry="1" in="40" out="37"/>
+</require>
+<produce amount="1" item="30">
+<workerAction carry="1" in="37" out="38"/>
+</produce>
+</action>
+<area areaSize="0" isFixed="false"/>
+</building>
+<building allowedon="7,8,9,12,13,14,15,16,17,18,19,-1,10,11,20,21,22,23,26,25,24,27,28,29,32,31,30,33,34,35,38,37,36,39,40,41,44,43,42,45,46,47,50,49,48,51" id="19" image="30" isWarehouse="false" name="geologist tent" workers="1">
+<info locale="de" text="Geologe Hütte" type="title"/>
+<info locale="en" text="Geologist Hut" type="title"/>
+<info locale="de" text="Zelt für Geologen, um Ressourcen vom Berg zu finden &lt;br&gt; &lt;br&gt;Anforderungen erstellen: &lt;br&gt;keiner" type="description"/>
+<info locale="en" text="Tent for Geologist to find resources from the mountain&lt;br&gt; &lt;br&gt;Build Requirements: &lt;br&gt; none" type="description"/>
+<action busy="-1" issueIdle="3" mustFulfill="false" title="look for stone">
+<info locale="de" text="Suche nach Stein" type="title"/>
+<info locale="en" text="Look for Stone" type="title"/>
+<require amount="1" item="12">
+<workerAction carry="1" in="55" out="55"/>
+<mapItemAction action="1" mapitem="12"/>
+<mapItemAction action="1" mapitem="20"/>
+<mapItemAction action="1" mapitem="28"/>
+<mapItemAction action="1" mapitem="36"/>
+<mapItemAction action="1" mapitem="44"/>
+</require>
+</action>
+<action busy="-1" issueIdle="3" mustFulfill="false" title="look for iron ore">
+<info locale="de" text="Suche nach Eisenerz" type="title"/>
+<info locale="en" text="Look for Iron Ore" type="title"/>
+<require amount="1" item="52">
+<workerAction carry="1" in="55" out="55"/>
+<mapItemAction action="1" mapitem="14"/>
+<mapItemAction action="1" mapitem="22"/>
+<mapItemAction action="1" mapitem="30"/>
+<mapItemAction action="1" mapitem="38"/>
+<mapItemAction action="1" mapitem="46"/>
+</require>
+</action>
+<action busy="-1" issueIdle="3" mustFulfill="false" title="look for copper ore">
+<info locale="de" text="Suche nach Kupfererz" type="title"/>
+<info locale="en" text="Look for Copper Ore" type="title"/>
+<require amount="1" item="53">
+<workerAction carry="1" in="55" out="55"/>
+<mapItemAction action="1" mapitem="16"/>
+<mapItemAction action="1" mapitem="24"/>
+<mapItemAction action="1" mapitem="32"/>
+<mapItemAction action="1" mapitem="40"/>
+<mapItemAction action="1" mapitem="48"/>
+</require>
+</action>
+<action busy="-1" issueIdle="3" mustFulfill="false" title="look for coal">
+<info locale="de" text="Suche nach Kohle" type="title"/>
+<info locale="en" text="Look for Coal" type="title"/>
+<require amount="1" item="54">
+<workerAction carry="1" in="55" out="55"/>
+<mapItemAction action="1" mapitem="18"/>
+<mapItemAction action="1" mapitem="26"/>
+<mapItemAction action="1" mapitem="34"/>
+<mapItemAction action="1" mapitem="42"/>
+<mapItemAction action="1" mapitem="50"/>
+</require>
+</action>
+<area areaSize="10" isFixed="false"/>
+</building>
+<building allowedon="7,8,9,12,13,14,15,16,17,18,19,20,23,22,21,24,25,26,29,28,27,30,31,32,35,34,33,36,37,38,41,40,39,42,43,44,47,46,45,48,49,50,51" id="20" image="31" isWarehouse="false" name="stone mine" workers="1">
+<info locale="de" text="Steinmine" type="title"/>
+<info locale="en" text="Stone Mine" type="title"/>
+<info locale="de" text="Bergbau für Stein &lt;br&gt; &lt;br&gt;Anforderungen erstellen: &lt;br&gt;benötigt einen Leveler und einen Erbauer, &lt;br&gt;benutzt 1 Planke und 1 Stahl" type="description"/>
+<info locale="en" text="Mining for stone &lt;br&gt; &lt;br&gt;Build Requirements: &lt;br&gt;requires a leveller and a builder, &lt;br&gt;uses 1 plank and 1 steel" type="description"/>
+<action busy="1" issueIdle="10" mustFulfill="false" title="mine">
+<info locale="de" text="Bergbau für Stein" type="title"/>
+<info locale="en" text="Mining for Stone" type="title"/>
+<require amount="1" item="30">
+<workerAction carry="1" in="62" out="57"/>
+</require>
+<require amount="1" item="12">
+<mapItemAction action="2" mapitem="13"/>
+<mapItemAction action="2" mapitem="21"/>
+<mapItemAction action="2" mapitem="29"/>
+<mapItemAction action="2" mapitem="37"/>
+<mapItemAction action="2" mapitem="45"/>
+<mapItemAction action="3" mapitem="12"/>
+<mapItemAction action="3" mapitem="20"/>
+<mapItemAction action="3" mapitem="28"/>
+<mapItemAction action="3" mapitem="36"/>
+<mapItemAction action="3" mapitem="44"/>
+</require>
+<produce amount="1" item="12">
+<workerAction carry="1" in="57" out="58"/>
+</produce>
+</action>
+<area areaSize="12" isFixed="true"/>
+</building>
+<building allowedon="7,8,9,12,13,14,15,16,17,18,19,20,23,22,21,24,25,26,29,28,27,30,31,32,35,34,33,36,37,38,41,40,39,42,43,44,47,46,45,48,49,50,51" id="21" image="32" isWarehouse="false" name="iron mine" workers="1">
+<info locale="de" text="Eisenmine" type="title"/>
+<info locale="en" text="Iron Mine" type="title"/>
+<info locale="de" text="Bergbau für Eisenerz &lt;br&gt; &lt;br&gt;Anforderungen erstellen: &lt;br&gt;benötigt einen Leveler und einen Erbauer, &lt;br&gt;benutzt 4 Planke" type="description"/>
+<info locale="en" text="Mining for Iron Ore &lt;br&gt; &lt;br&gt;Build Requirements: &lt;br&gt;requires a leveller and a builder, &lt;br&gt;uses 4 planks" type="description"/>
+<action busy="1" issueIdle="10" mustFulfill="false" title="mine for iron">
+<info locale="de" text="Bergbau für Eisenerz" type="title"/>
+<info locale="en" text="Mining for Iron Ore" type="title"/>
+<require amount="1" item="30">
+<workerAction carry="1" in="62" out="57"/>
+</require>
+<require amount="1" item="52">
+<mapItemAction action="2" mapitem="15"/>
+<mapItemAction action="2" mapitem="23"/>
+<mapItemAction action="2" mapitem="31"/>
+<mapItemAction action="2" mapitem="39"/>
+<mapItemAction action="2" mapitem="47"/>
+<mapItemAction action="3" mapitem="14"/>
+<mapItemAction action="3" mapitem="22"/>
+<mapItemAction action="3" mapitem="30"/>
+<mapItemAction action="3" mapitem="38"/>
+<mapItemAction action="3" mapitem="46"/>
+</require>
+<produce amount="1" item="52">
+<workerAction carry="1" in="57" out="60"/>
+</produce>
+</action>
+<area areaSize="12" isFixed="true"/>
+</building>
+<building allowedon="7,8,9,12,13,14,15,16,17,18,19,20,23,22,21,24,25,26,29,28,27,30,31,32,35,34,33,36,37,38,41,40,39,42,43,44,47,46,45,48,49,50,51" id="22" image="33" isWarehouse="false" name="copper mine" workers="1">
+<info locale="de" text="Kupfermine" type="title"/>
+<info locale="en" text="Copper Mine" type="title"/>
+<info locale="de" text="Bergbau für Kupfererz &lt;br&gt; &lt;br&gt;Anforderungen erstellen: &lt;br&gt;benötigt einen Leveler und einen Erbauer, &lt;br&gt;benutzt 4 Planke" type="description"/>
+<info locale="en" text="Mining for Copper Ore &lt;br&gt; &lt;br&gt;Build Requirements: &lt;br&gt;requires a leveller and a builder, &lt;br&gt;uses 4 planks" type="description"/>
+<action busy="1" issueIdle="10" mustFulfill="false" title="mine for copper ore">
+<info locale="de" text="Bergbau für Kupfererz" type="title"/>
+<info locale="en" text="Mining for Copper Ore" type="title"/>
+<require amount="1" item="30">
+<workerAction carry="1" in="62" out="57"/>
+</require>
+<require amount="1" item="53">
+<mapItemAction action="2" mapitem="17"/>
+<mapItemAction action="2" mapitem="25"/>
+<mapItemAction action="2" mapitem="33"/>
+<mapItemAction action="2" mapitem="41"/>
+<mapItemAction action="2" mapitem="49"/>
+<mapItemAction action="3" mapitem="16"/>
+<mapItemAction action="3" mapitem="24"/>
+<mapItemAction action="3" mapitem="32"/>
+<mapItemAction action="4" mapitem="40"/>
+<mapItemAction action="4" mapitem="48"/>
+</require>
+<produce amount="1" item="53">
+<workerAction carry="1" in="57" out="61"/>
+</produce>
+</action>
+<area areaSize="12" isFixed="true"/>
+</building>
+<building allowedon="7,8,9,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51" id="23" image="34" isWarehouse="false" name="coal mine" workers="1">
+<info locale="de" text="Kohlengrube" type="title"/>
+<info locale="en" text="Coal Mine" type="title"/>
+<info locale="de" text="Bergbau für Kohle &lt;br&gt; &lt;br&gt;Anforderungen erstellen: &lt;br&gt;benötigt einen Leveler und einen Erbauer, &lt;br&gt;benutzt 4 Planke" type="description"/>
+<info locale="en" text="Mining for Coal &lt;br&gt; &lt;br&gt;Build Requirements: &lt;br&gt;requires a leveller and a builder, &lt;br&gt;uses 4 planks" type="description"/>
+<action busy="1" issueIdle="10" mustFulfill="false" title="mine for coal">
+<info locale="de" text="Bergbau für Kohle" type="title"/>
+<info locale="en" text="Mining for Coal" type="title"/>
+<require amount="1" item="30">
+<workerAction carry="1" in="62" out="57"/>
+</require>
+<require amount="1" item="54">
+<mapItemAction action="2" mapitem="19"/>
+<mapItemAction action="2" mapitem="27"/>
+<mapItemAction action="2" mapitem="35"/>
+<mapItemAction action="2" mapitem="43"/>
+<mapItemAction action="2" mapitem="51"/>
+<mapItemAction action="3" mapitem="18"/>
+<mapItemAction action="3" mapitem="26"/>
+<mapItemAction action="3" mapitem="34"/>
+<mapItemAction action="3" mapitem="42"/>
+<mapItemAction action="4" mapitem="50"/>
+</require>
+<produce amount="1" item="54">
+<workerAction carry="1" in="57" out="59"/>
+</produce>
+</action>
+<area areaSize="12" isFixed="true"/>
+</building>
+</buildings>
+</TheGatherers>
